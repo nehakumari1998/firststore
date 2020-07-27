@@ -9,23 +9,25 @@
 
     <TextView
         android:textColor="@color/black"
-
-        android:layout_gravity="center"
-        android:textSize="15dp"
-        android:text="Please login to view Order History"
+        android:text="Enter the code received"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+    <EditText
+        android:id="@+id/editTextOtp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/login"
+        android:id="@+id/buttonConfirm"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:layout_marginTop="374dp"
+        android:layout_marginTop="24dp"
         android:background="@color/colorPrimary"
         android:padding="12dp"
-        android:text="LOGIN"
+        android:text="Confirm"
         android:textColor="@color/whiteTextColor" />
 
 

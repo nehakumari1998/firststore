@@ -24,8 +24,6 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(intent);
                 intent = new Intent(SplashActivity.this, BottomNavigationActivity.class);
                 startActivity(intent);
-
-
                 finish();
             }
         },3000);

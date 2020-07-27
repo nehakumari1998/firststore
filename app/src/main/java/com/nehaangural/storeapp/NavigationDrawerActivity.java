@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 
 public class NavigationDrawerActivity extends AppCompatActivity {
@@ -65,10 +66,13 @@ public class NavigationDrawerActivity extends AppCompatActivity {
                     Intent intent=new Intent(NavigationDrawerActivity.this,LogOutActivity.class);
                     startActivity(intent);
                 }
+
                 return true;
 
             }
         });
+
+
 
 /* navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
 @Override
